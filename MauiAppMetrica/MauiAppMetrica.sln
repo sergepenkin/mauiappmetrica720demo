@@ -1,0 +1,138 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppMetrica", "MauiAppMetrica.csproj", "{23617360-4AD0-4C5D-A66E-1E02FBBD2849}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E870FB0-2888-406B-8BDB-D8887D87FD3E} = {6E870FB0-2888-406B-8BDB-D8887D87FD3E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics", "..\Net.Android.AppMetrica.Analytics\Net.Android.AppMetrica.Analytics.csproj", "{6E870FB0-2888-406B-8BDB-D8887D87FD3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.AppSetId", "..\Net.Android.AppMetrica.Analytics.AppSetId\Net.Android.AppMetrica.Analytics.AppSetId.csproj", "{994DFF1D-6E2E-4499-8123-4887A450C313}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.BillingInterface", "..\Net.Android.AppMetrica.Analytics.BillingInterface\Net.Android.AppMetrica.Analytics.BillingInterface.csproj", "{722A674D-0B4D-422A-AD41-2378CDA4D273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.BillingV6", "..\Net.Android.AppMetrica.Analytics.BillingV6\Net.Android.AppMetrica.Analytics.BillingV6.csproj", "{8D6DBDB8-A6B8-405B-ABB8-0709EA834FE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.CommonLogger", "..\Net.Android.AppMetrica.Analytics.CommonLogger\Net.Android.AppMetrica.Analytics.CommonLogger.csproj", "{A6107C8D-D874-4819-8D7F-6549283559F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.CoreApi", "..\Net.Android.AppMetrica.Analytics.CoreApi\Net.Android.AppMetrica.Analytics.CoreApi.csproj", "{42EA14B7-75AC-4C8C-AEE9-02FEE5A34D03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.CoreUtils", "..\Net.Android.AppMetrica.Analytics.CoreUtils\Net.Android.AppMetrica.Analytics.CoreUtils.csproj", "{8446BC65-3AA0-4605-A1C0-100291C5C165}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.GplLibrary", "..\Net.Android.AppMetrica.Analytics.GplLibrary\Net.Android.AppMetrica.Analytics.GplLibrary.csproj", "{67FDC1A1-F2A2-4EF5-BFD0-8FC06DB99365}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.Identifiers", "..\Net.Android.AppMetrica.Analytics.Identifiers\Net.Android.AppMetrica.Analytics.Identifiers.csproj", "{C4DCC85B-8CBA-4D25-B56A-AA2DA2357ADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.Location", "..\Net.Android.AppMetrica.Analytics.Location\Net.Android.AppMetrica.Analytics.Location.csproj", "{1D5F479E-0463-4F00-88E8-2F3E1CD71226}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.LocationApi", "..\Net.Android.AppMetrica.Analytics.LocationApi\Net.Android.AppMetrica.Analytics.LocationApi.csproj", "{606BD66E-BA0A-4C84-820C-4E8B90A5C2E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.Logger", "..\Net.Android.AppMetrica.Analytics.Logger\Net.Android.AppMetrica.Analytics.Logger.csproj", "{CC3A898C-0D22-4BD6-AB50-3F883E3EE7C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.ModulesApi", "..\Net.Android.AppMetrica.Analytics.ModulesApi\Net.Android.AppMetrica.Analytics.ModulesApi.csproj", "{27FB3528-79AC-41E0-AAD8-4BBA0DC78DE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.NdkCrashesApi", "..\Net.Android.AppMetrica.Analytics.NdkCrashesApi\Net.Android.AppMetrica.Analytics.NdkCrashesApi.csproj", "{4A229D73-2335-427C-853F-4CF885F917DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.Network", "..\Net.Android.AppMetrica.Analytics.Network\Net.Android.AppMetrica.Analytics.Network.csproj", "{38309E43-FF5D-45B5-9774-481CE432130D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.NetworkTask", "..\Net.Android.AppMetrica.Analytics.NetworkTask\Net.Android.AppMetrica.Analytics.NetworkTask.csproj", "{5CA1F858-F936-4B14-8A93-E2A12C4FD93E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.Proto", "..\Net.Android.AppMetrica.Analytics.Proto\Net.Android.AppMetrica.Analytics.Proto.csproj", "{0520B4F5-A324-4BAE-9E77-76518E0140F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Android.AppMetrica.Analytics.RemotePermissions", "..\Net.Android.AppMetrica.Analytics.RemotePermissions\Net.Android.AppMetrica.Analytics.RemotePermissions.csproj", "{91C3E907-8AB2-47E5-8900-0DA760C30FB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23617360-4AD0-4C5D-A66E-1E02FBBD2849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23617360-4AD0-4C5D-A66E-1E02FBBD2849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23617360-4AD0-4C5D-A66E-1E02FBBD2849}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23617360-4AD0-4C5D-A66E-1E02FBBD2849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23617360-4AD0-4C5D-A66E-1E02FBBD2849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23617360-4AD0-4C5D-A66E-1E02FBBD2849}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6E870FB0-2888-406B-8BDB-D8887D87FD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E870FB0-2888-406B-8BDB-D8887D87FD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E870FB0-2888-406B-8BDB-D8887D87FD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E870FB0-2888-406B-8BDB-D8887D87FD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994DFF1D-6E2E-4499-8123-4887A450C313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994DFF1D-6E2E-4499-8123-4887A450C313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994DFF1D-6E2E-4499-8123-4887A450C313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994DFF1D-6E2E-4499-8123-4887A450C313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722A674D-0B4D-422A-AD41-2378CDA4D273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722A674D-0B4D-422A-AD41-2378CDA4D273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722A674D-0B4D-422A-AD41-2378CDA4D273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722A674D-0B4D-422A-AD41-2378CDA4D273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6DBDB8-A6B8-405B-ABB8-0709EA834FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6DBDB8-A6B8-405B-ABB8-0709EA834FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6DBDB8-A6B8-405B-ABB8-0709EA834FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6DBDB8-A6B8-405B-ABB8-0709EA834FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6107C8D-D874-4819-8D7F-6549283559F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6107C8D-D874-4819-8D7F-6549283559F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6107C8D-D874-4819-8D7F-6549283559F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6107C8D-D874-4819-8D7F-6549283559F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EA14B7-75AC-4C8C-AEE9-02FEE5A34D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EA14B7-75AC-4C8C-AEE9-02FEE5A34D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EA14B7-75AC-4C8C-AEE9-02FEE5A34D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EA14B7-75AC-4C8C-AEE9-02FEE5A34D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8446BC65-3AA0-4605-A1C0-100291C5C165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8446BC65-3AA0-4605-A1C0-100291C5C165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8446BC65-3AA0-4605-A1C0-100291C5C165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8446BC65-3AA0-4605-A1C0-100291C5C165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FDC1A1-F2A2-4EF5-BFD0-8FC06DB99365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FDC1A1-F2A2-4EF5-BFD0-8FC06DB99365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FDC1A1-F2A2-4EF5-BFD0-8FC06DB99365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FDC1A1-F2A2-4EF5-BFD0-8FC06DB99365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DCC85B-8CBA-4D25-B56A-AA2DA2357ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DCC85B-8CBA-4D25-B56A-AA2DA2357ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DCC85B-8CBA-4D25-B56A-AA2DA2357ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DCC85B-8CBA-4D25-B56A-AA2DA2357ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5F479E-0463-4F00-88E8-2F3E1CD71226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5F479E-0463-4F00-88E8-2F3E1CD71226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5F479E-0463-4F00-88E8-2F3E1CD71226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5F479E-0463-4F00-88E8-2F3E1CD71226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606BD66E-BA0A-4C84-820C-4E8B90A5C2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606BD66E-BA0A-4C84-820C-4E8B90A5C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606BD66E-BA0A-4C84-820C-4E8B90A5C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606BD66E-BA0A-4C84-820C-4E8B90A5C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3A898C-0D22-4BD6-AB50-3F883E3EE7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3A898C-0D22-4BD6-AB50-3F883E3EE7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3A898C-0D22-4BD6-AB50-3F883E3EE7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3A898C-0D22-4BD6-AB50-3F883E3EE7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FB3528-79AC-41E0-AAD8-4BBA0DC78DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FB3528-79AC-41E0-AAD8-4BBA0DC78DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FB3528-79AC-41E0-AAD8-4BBA0DC78DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FB3528-79AC-41E0-AAD8-4BBA0DC78DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A229D73-2335-427C-853F-4CF885F917DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A229D73-2335-427C-853F-4CF885F917DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A229D73-2335-427C-853F-4CF885F917DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A229D73-2335-427C-853F-4CF885F917DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38309E43-FF5D-45B5-9774-481CE432130D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38309E43-FF5D-45B5-9774-481CE432130D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38309E43-FF5D-45B5-9774-481CE432130D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38309E43-FF5D-45B5-9774-481CE432130D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA1F858-F936-4B14-8A93-E2A12C4FD93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA1F858-F936-4B14-8A93-E2A12C4FD93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA1F858-F936-4B14-8A93-E2A12C4FD93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA1F858-F936-4B14-8A93-E2A12C4FD93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0520B4F5-A324-4BAE-9E77-76518E0140F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0520B4F5-A324-4BAE-9E77-76518E0140F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0520B4F5-A324-4BAE-9E77-76518E0140F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0520B4F5-A324-4BAE-9E77-76518E0140F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C3E907-8AB2-47E5-8900-0DA760C30FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C3E907-8AB2-47E5-8900-0DA760C30FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C3E907-8AB2-47E5-8900-0DA760C30FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C3E907-8AB2-47E5-8900-0DA760C30FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E889F411-E58A-480D-A064-18BCCE466768}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+
+        <!-- Yandex Metrica required manifest entries START -->
+        <service android:name="io.appmetrica.analytics.AppMetricaService" android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="io.appmetrica.analytics.IAppMetricaService" />
+                <data android:scheme="metrica" />
+            </intent-filter>
+            <meta-data android:name="metrica:api:level" android:value="50" />
+        </service>
+        <receiver android:name="io.appmetrica.analytics.MetricaEventHandler" android:enabled="true"
+            android:exported="true">
+            <!-- Required for tracking campaigns -->
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!-- end of Yandex Metrica -->
+
+</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
